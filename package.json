@@ -1,0 +1,11 @@
+{
+  "name": "thin-retry",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "A simple node script that implements most common request retry patterns."
+}
