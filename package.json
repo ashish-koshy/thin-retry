@@ -1,10 +1,27 @@
 {
   "name": "thin-retry",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
+  "keywords": ["retry", "https", "queue", "backoff"],
   "license": "ISC",
-  "description": "A simple node script that implements most common request retry patterns."
+  "description": "A simple node script that implements most common request retry patterns.",
+  "author": {
+    "name": "Ashish Koshy",
+    "email": "ashish.avior@gmail.com"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-koshy/thin-retry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashish-koshy/thin-retry/issues"
+  },
+  "homepage": "https://github.com/ashish-koshy/thin-retry#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }

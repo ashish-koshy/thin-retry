@@ -1,5 +1,5 @@
 const utils = require('./utils');
-const thinRetry = require('./thin-retry');
+const thinRetry = require('./index');
 
 thinRetry(
     {
