@@ -1,9 +1,8 @@
 {
   "name": "thin-retry",
   "version": "1.0.0",
-  "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "test": "node test.js"
   },
   "author": "",
   "license": "ISC",
