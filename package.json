@@ -7,7 +7,7 @@
   },
   "keywords": ["retry", "https", "queue", "backoff"],
   "license": "ISC",
-  "description": "A simple node script that implements most common request retry patterns.",
+  "description": "A simple node script with 'zero' dependencies that implements the most common API request-retry patterns.",
   "author": {
     "name": "Ashish Koshy",
     "email": "ashish.avior@gmail.com"
