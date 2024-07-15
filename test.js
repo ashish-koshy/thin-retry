@@ -1,5 +1,5 @@
 const utils = require('./utils');
-const thinRetry = require('./index');
+const thinRetry = require('./index'); // This would be require('thin-retry') for you as a package consumer.
 
 thinRetry(
     {
