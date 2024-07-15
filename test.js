@@ -6,7 +6,7 @@ thinRetry(
         options: {
             port: 443,
             method: 'GET',
-            path: '/posts/1',
+            path: '/posts/1',   // Add a typo to this path to test 404s or spin up an express server to simulate HTTP errors.
             hostname: 'jsonplaceholder.typicode.com'
         },
         retryConfig: {
